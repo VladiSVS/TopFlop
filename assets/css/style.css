@@ -46,6 +46,10 @@ ul {
     padding: 0;
 }
 
+section {
+    padding: 5% 10%;
+}
+
 .scroll > a > i {
     position: fixed;
     left: 0;
@@ -96,7 +100,7 @@ header > ul > li > a:hover {
 }
 
 #top > article { 
-    padding: 10% 10% 10.5% 10%;
+    margin-top: 5%;
     height: 100vh;
 }
 
@@ -146,9 +150,6 @@ header > ul > li > a:hover {
 
 #about {
     border-top: 5px solid #801336;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
     background: #2D132C;
     z-index: 99;
 }
@@ -156,7 +157,6 @@ header > ul > li > a:hover {
 .textabout > h1 {
     font-size: 20em;
     color: #801336;
-    margin-top: 5%;
     text-align: center;
 }
 
@@ -197,7 +197,6 @@ header > ul > li > a:hover {
 
 #gallery {
     border-top: 4px solid #801336;
-    padding: 5% 5% 10% 5%;
     background: rgba(0, 0, 0, 0.4);
 }
 
@@ -270,7 +269,6 @@ header > ul > li > a:hover {
 
 #contact {
     background: #2D132C;
-    padding: 10%;
     border-top: 4px solid #801336;
     border-bottom: 4px solid #801336;
 }
@@ -278,6 +276,7 @@ header > ul > li > a:hover {
 #contact > form > h1 {
     font-size: 10em;
     background: #801336; 
+    margin-bottom: 4%;
 }
 
 #contact > form > button {
