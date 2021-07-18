@@ -34,6 +34,10 @@ h1, h2 {
     font-family: 'Tourney', sans-serif;
 }
 
+p {
+    font-family: 'Arial', sans-serif;
+}
+
 a {
     font-family: 'Tourney_a', sans-serif;
 }
@@ -156,11 +160,13 @@ header > ul > li > a:hover {
     text-align: center;
 }
 
-.textabout p {
+.textabout > p {
     display: inline-block;
     text-align: justify;
     width: 45%;
     line-height: 3em;
+    color: #EDEDED;
+    letter-spacing: 1px;
     z-index: 999;
 } 
 
@@ -172,25 +178,19 @@ header > ul > li > a:hover {
     text-align: right;
 } 
 
-#about h2 {
+.textabout > h2 {
     font-size: 5em;
     font-weight: bold;
     color: #EDEDED;
     margin: 0;
 }
 
-#about h2:first-of-type {
+.textabout > h2:first-of-type {
     margin-top: 5%;
 }
 
-#about h2:last-of-type {
+.textabout > h2:last-of-type {
     margin-bottom: 5%;
-}
-
-#about  p {
-    font-family: 'Arial', sans-serif;
-    color: #EDEDED;
-    letter-spacing: 1px;
 }
 
 /* section gallery */
@@ -281,10 +281,13 @@ header > ul > li > a:hover {
 }
 
 #contact > form > button {
-    background: #801336; 
     color: #fff;
     border: none;
     padding: 1%;
+    background: #2D132C;
+    border: 3px solid #801336;
+    width: 34.5%;
+    margin-top: 1%;
 }
 
 #contact > form > input {
@@ -301,6 +304,7 @@ header > ul > li > a:hover {
     border: none;
     border: 3px solid #801336;
     width: 33.5%;
+    height: 150px;
     margin-top: 1%;
 }
 
@@ -311,14 +315,6 @@ header > ul > li > a:hover {
 #contact > form {
     margin: 0 auto;
     text-align: center;
-}
-
-#contact > form > button {
-    background: #2D132C;
-    border: none;
-    border: 3px solid #801336;
-    width: 34.5%;
-    margin-top: 1%;
 }
 
 #contact > form > button > a {
