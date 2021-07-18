@@ -172,7 +172,7 @@ header > ul > li > a:hover {
     text-align: right;
 } 
 
-#about > h2 {
+#about h2 {
     font-size: 5em;
     font-weight: bold;
     color: #EDEDED;
@@ -187,7 +187,7 @@ header > ul > li > a:hover {
     margin-bottom: 5%;
 }
 
-#about > p {
+#about  p {
     font-family: 'Arial', sans-serif;
     color: #EDEDED;
     letter-spacing: 1px;
